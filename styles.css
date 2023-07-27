@@ -1,0 +1,244 @@
+*{
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+header{
+    background-color: #00425A;
+    display: flex;
+    box-shadow: 1px 1px 10px 6px;
+    position: fixed;
+    width: 100%;
+    opacity: 0.9;
+    z-index: 50;
+}
+h1{
+    font-family: 'Belanosima', sans-serif;
+    text-decoration: underline;
+    font-size: 2.5em;
+    color: #EFF5F5;
+    padding-top: 8px;
+}
+nav{
+    width: 100%;
+    margin: auto;
+}
+.lista-1{
+    display: flex;
+    gap: 20px;
+    list-style: none;
+    width: 100%;
+    justify-content: center;
+    margin: auto;
+}
+.elementos-1{
+    border: 1px solid #EFF5F5;
+    border-radius: 5px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 800;
+    color: #EFF5F5;
+    margin: 8px;
+    text-align: center;
+}
+.container-1{
+    text-align: center;
+    margin-bottom: 10px;
+}
+.container-2{
+    display: flex;
+    margin: auto;
+}
+#section-1{
+    height: 100vh;
+    width: 100%;
+}
+.imagen-1{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: fixed;
+    z-index: -100;
+}
+.container-3{
+    position: absolute;
+    width: 100%;
+    top: 50%;
+    text-align: center;
+}
+h2{
+    font-size: 2.5em;
+    padding: auto;
+    font-family: 'Poppins', sans-serif;
+    color: #EFF5F5;
+    font-weight: 900;
+    font-style: italic;
+    backdrop-filter: blur(15px);
+}
+.container-4{
+    text-align: center;
+    width: 100%;
+}
+h3{
+    font-size: 3em;
+    padding: auto;
+    font-family: 'Belanosima', sans-serif;
+    color: #EFF5F5;
+    font-weight: 900;
+    font-style: italic;
+    padding-bottom: 25px;
+}
+.container-5{
+    width: 100%;
+    display: flex;
+    padding-bottom: 25px;
+}
+.imagen-2{
+    width: 60%;
+    object-fit: cover;
+    border-radius: 10px;
+    float: left;
+    margin: 10px;
+}
+#section-2{
+    padding-top: 110px;
+    margin-top: 20px;
+    width: 80%;
+    margin: auto;
+    backdrop-filter: blur(10px);
+}
+p{
+    font-size: 1.4em;
+    background-color: #EFF5F5;
+    padding: 15px;
+    border-radius: 10px;
+}
+.container-6{
+    margin-top: 25px;
+    text-align: center;
+    width: 100%;
+}
+#section-3{
+    padding-top: 90px;
+    margin-top: 20px;
+    width: 80%;
+    margin: auto;
+    backdrop-filter: blur(10px);
+}
+.imagen-3{
+    width: 60%;
+    object-fit: cover;
+    border-radius: 10px;
+    float: right;
+    margin: 10px;
+}
+.container-7{
+    width: 100%;
+    display: flex;
+    padding-bottom: 25px;
+}
+span{
+    font-style: italic;
+    font-weight: 800;
+    text-decoration: underline;
+}
+#section-4{
+    padding-top: 100px;
+    margin-top: 20px;
+    width: 80%;
+    margin: auto;
+    backdrop-filter: blur(10px);
+}
+.container-8{
+    margin-top: 25px;
+    text-align: center;
+    width: 100%;
+}
+.container-9{
+    width: 100%;
+    padding-bottom: 25px;
+}
+.lista-2{
+    list-style: none;
+}
+.elementos-2{
+    background-color: #EFF5F5;
+    padding: 4px;
+    border-radius: 5px;
+    font-weight: 800;
+    margin: 8px;
+    text-align: center;
+}
+#section-5{
+    padding-top: 110px;
+    margin-top: 20px;
+    width: 80%;
+    margin: auto;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    backdrop-filter: blur(10px);
+    text-align: center;
+}
+.container-10{
+    width: 100%;
+    padding-bottom: 25px;
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 15px;
+}
+h4{
+    font-size: 2em;
+    padding: auto;
+    font-family: 'Belanosima', sans-serif;
+    color: #EFF5F5;
+    font-weight: 900;
+    font-style: italic;
+    padding-bottom: 25px;
+}
+footer{
+    background-color: #00425A;
+    display: grid;
+    box-shadow: 1px 1px 10px 6px;
+    grid-template-columns: 1fr 1fr 1fr;;
+    width: 100%;
+    height: 120px;
+    margin-top: 30px;
+    opacity: 0.9;
+    text-align: center;
+    align-items: center;
+}
+h5{
+    font-size: 1em;
+    margin: 10px;
+    color: #EFF5F5;
+}
+a{
+    text-decoration: none;
+    color: #EFF5F5;
+    margin: 0;
+    padding: 4px;
+}
+a:hover{
+    font-weight: 800;
+    color: #000000;
+}
+@media (width < 580px) {
+    .elementos-1{
+        display: none;
+    }
+    .elementos-1:last-child{
+        display: flex;
+    }
+    p{
+        font-size: 1em;
+    }
+}
+@media (width < 420px) {
+    .container-10{
+        grid-template-columns: 1fr;
+    }
+    .titulo-footer{
+        font-size: 1.4em;
+        padding-bottom: 25px;
+    }
+}
